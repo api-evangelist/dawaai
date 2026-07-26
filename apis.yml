@@ -1,8 +1,32 @@
 aid: dawaai
 name: Dawaai
-description: Dawaai is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Dawaai is Pakistan's leading digital healthcare platform, operating a licensed
+  online pharmacy alongside telehealth and diagnostic services. Founded on a
+  licensed retail pharmacy (License #1265, 2014) and headquartered in Karachi,
+  Dawaai lets patients order authentic prescription and OTC medicines for
+  temperature-controlled doorstep delivery, book doctor and mental-health
+  consultations, order home-based lab tests and checkups, arrange home nursing
+  and medical services, and subscribe to chronic-care programs for diabetes and
+  obesity. It is a LegitScript-certified healthcare merchant that sources
+  directly from manufacturers and distributors, with qualified pharmacists
+  handling procurement, storage, and dispensing. Dawaai is backed by 500 Global
+  and operates across Pakistan, including Karachi and Rawalpindi. This profile
+  was added to the API Evangelist network via the venture portfolio pipeline;
+  Dawaai publishes no public developer/API program at this time.
 url: https://raw.githubusercontent.com/api-evangelist/dawaai/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://dawaai.pk/assets/img/dawaaiog.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +35,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Healthcare
+- Pharmacy
+- Telehealth
+- E-Commerce
+- Digital Health
+- Pakistan
+- Diagnostics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,24 @@ maintainers:
 common:
 - type: Website
   url: https://dawaai.pk
+- type: About
+  url: https://dawaai.pk/aboutus
+- type: Support
+  url: https://dawaai.pk/faq
+- type: Contact
+  url: https://dawaai.pk/contactus
+- type: SignUp
+  url: https://dawaai.pk/login-signup
+- type: Login
+  url: https://dawaai.pk/login-signup
+- type: TermsOfService
+  url: https://dawaai.pk/terms
+- type: PrivacyPolicy
+  url: https://dawaai.pk/privacy
+- type: DomainSecurity
+  url: security/dawaai-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
